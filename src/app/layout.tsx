@@ -7,6 +7,9 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: 'LovedByStyle - Coming Soon',
   description: 'Where Fashion Meets Mutual Support',
+  icons: {
+    icon: '/favicon.ico'
+  },
 }
 
 export default function RootLayout({
