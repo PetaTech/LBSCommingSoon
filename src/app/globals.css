@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --gold: #D4AF37;
+  --gold-light: #F4E4BC;
+  --gold-dark: #B8860B;
+}
+
+body {
+  background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 100%);
+  color: white;
+  min-height: 100vh;
+}
+
+.gold-text {
+  color: var(--gold);
+}
+
+.gold-border {
+  border-color: var(--gold);
+}
+
+.gold-bg {
+  background-color: var(--gold);
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+} 
